@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:text="My Profile"
+            android:textColor="@color/colorPrimary"
+            android:drawableStart="@drawable/profile"
+            android:drawableEnd="@drawable/down"
+            android:drawablePadding="10dp"
+            android:textSize="16sp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:paddingStart="10dp"
+            android:text="Account setting"
+            android:textColor="@color/colorPrimary"
+            android:drawableStart="@drawable/ic_hand"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/profile"
+            android:textSize="16sp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:drawableStart="@drawable/cards"
+            android:drawablePadding="10dp"
+            android:text="Card"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/card"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:text="Queries"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/query"
+            android:drawablePadding="10dp"
+            android:id="@+id/queris"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:text="Company Account Details"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/card"
+            android:drawablePadding="10dp"
+            android:id="@+id/company"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:text="Change Password"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="10dp"
+            android:id="@+id/change"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:text="Logout"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/logout"
+            android:drawablePadding="10dp"
+            android:id="@+id/logout"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
